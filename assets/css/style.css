@@ -1,35 +1,66 @@
+body {
+  margin: 0;
+}
+.text-img {
+  color: #926239;
+  margin: 0;
+}
 .image {
   height: 100vh;
   width: 100vw;
-  
-  background-image: url('../images/beach.jpg');
-  background-repeat: no-repeat center top fixed;
-  background-size: cover;
+  text-align: center;
+  background-image: url("../images/beach.jpg");
+  background-repeat: no-repeat;
   box-sizing: border-box;
+  background-size: cover;
+  background-position: bottom;
 }
 .pharagraph {
-  height: 10vh;
+  height: 16vh;
   width: 100vw;
   background-color: #926239;
   color: aliceblue;
   padding: 10px;
-  font-size: 16px;
+  font-size: 20px;
   box-sizing: border-box;
 }
-.text-white {
-  color: #926239;
-  padding: 10px;
-}
-.article-class {
-  
-}
-
 .button {
-  color: #926239;
   border-radius: 12px;
   height: 48px;
   border-color: #926239;
   font-size: 24px;
-  
-  
+}
+
+.text-white {
+  color: #926239;
+  padding: 10px;
+  font-size: 20px;
+}
+.article-class {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 33.3%;
+  padding: 24px;
+  font-size: 20px;
+}
+.text-left {
+  background-color: #926239;
+  color: aliceblue;
+  padding: 10px;
+}
+.text-center {
+  color: #926239;
+  padding: 10px;
+}
+.text-right {
+  background-color: #926239;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.heading {
+  font-size: 48px;
+}
+.img-pharagraph {
+  font-size: 24px;
 }
